@@ -1,0 +1,8 @@
+{
+
+    "nav" : [
+        { "href" : "#experience" , "title" : "experience"},
+        { "href" : "#myproject" , "title" : "my project"},
+        { "href" : "#mywebsite" , "title" : "my website"}
+    ]
+}

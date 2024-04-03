@@ -1,0 +1,639 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1&family=Sunflower:wght@300&display=swap');
+*{margin:0; padding:0;}
+div,h1,h2,h3,h4,h5,p{margin:0;}
+ul li{list-style:none;}
+a{text-decoration: none;}
+a:visited{text-decoration: none;}
+body{
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.title{
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5em;
+
+}
+
+.boxPadding {
+
+    padding: 0px 200px;
+    margin: 0 auto;
+
+}
+
+.page{
+    
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+    position: relative;
+
+}
+
+.page > main{
+
+    width: 100%;
+    margin:0 auto;
+}
+
+.page > header{
+
+    position: fixed;
+    left:0px;
+    top:0px;
+    width: 100%;
+    z-index:100;
+    background-color: rgba(0,0,0,.9);
+}
+
+
+.navi{
+
+  margin:0 auto;
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+
+}
+
+.navi.active{
+
+    height:60px;
+    transition: 1s;
+    overflow: none;
+}
+
+.navi ul{
+ 
+     margin:0 auto;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+
+}
+
+.navi ul li{
+
+   flex:1;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.navi ul li a{
+
+    color:#fff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.navi ul li a:hover{
+
+    color:#acacac;
+}
+
+.main{
+
+    padding: 150px 0px 200px;
+    margin:0 auto;
+    background-color: #fff;
+    
+}
+
+.main .textBox{
+
+    width: 100%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.main .textBox ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:1;
+
+}
+
+.main .textBox ul.profile{
+
+    margin-left:-60px;
+    z-index:0;
+    animation: profile infinite 800ms ease-in-out;
+}
+
+@keyframes profile{
+
+     50%{transform: translateY(-8px)};
+     100%{transform: translateY(8px)};
+}
+
+@-webkit-keyframes profile{
+
+    50%{transform: translateY(-8px)};
+    100%{transform: translateY(8px)};
+}
+
+.main .textBox ul li{
+
+}
+
+.main .textBox ul li span{
+
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#000;
+    font-size: 6em;
+}
+
+.main .textBox ul li span em{
+
+    font-style: normal;
+    opacity: 0;
+}
+
+.main .textBox ul li span em.active{
+
+    opacity: 1;
+}
+
+.main .textBox ul img{
+
+    height:300px;
+}
+
+.main .text{
+
+    padding: 10px 0px;
+    margin:0 auto;
+
+}
+
+.main .text p{
+
+    font-size: 2em;
+    text-transform: uppercase;
+    padding: 0px 330px;
+    letter-spacing: 3px;
+    font-family: "Sunflower", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.main .introduce{
+
+    padding: 50px 0px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0px 50px;
+}
+.main .introduce p{
+
+     font-weight: 300;
+     font-size: 1.5em;
+     padding: 0px;
+     text-transform: uppercase;
+
+    }
+
+
+.main .skills{
+
+    height:0px;
+    margin:0 auto;
+    background-color: #fff;
+    color:#fff;
+
+}
+
+.main .skills.active{
+
+    height:600px;
+    background-color: #000;
+    transition: 800ms;
+}
+
+.main .skills ul{
+
+    margin:0 auto;
+    padding: 100px 0px 0px;
+}
+
+.main .skills .skillsTitle p{
+
+    padding: 0px 200px;
+    margin-left:-200%;
+
+}
+
+.main .skills .skillsTitle.active p{
+
+    margin-left:0px;
+    transition: 1s;
+}
+
+.main .skills .skillsBox {
+
+    padding: 0px;
+}
+
+.main .skills .skillsBox li{
+
+    padding: 0px 200px;
+
+}
+.main .skills .skillsBox li p{
+
+   float:left;
+   padding: 20px;
+   font-size: 2em;
+   font-weight: 300;
+   text-transform: uppercase;
+}
+
+
+/*.experience */
+
+
+
+.experienceWrap{
+
+    padding: 50px 0px;
+    margin:0 auto;
+    background-color: #fff;
+    display: none;
+}
+
+.experienceWrap.active{
+
+    display: block;
+}
+
+
+.experienceWrap .textBox .experiBox p{
+
+    margin-left:-200%;
+    
+}
+
+.experienceWrap .textBox .experiBox.active p{
+
+    margin-left: 0px;
+    transition: 1s;
+}
+.experienceWrap .textBox .subTitle p{
+
+    font-size: 1.5em;
+}
+
+.experienceWrap .workInfo{
+
+    padding: 100px 200px;
+    margin:0 auto;
+    opacity: 0;
+}
+
+.experienceWrap .workInfo span{
+
+    font-size: 1.5em;
+    display: block;
+    padding: 30px 0px;
+}
+
+.experienceWrap .workInfo.active{
+
+    opacity: 1;
+    transition: 1s;
+}
+
+.experienceWrap .workInfo ul {
+
+    padding: 20px 0px;
+    margin:0 auto;
+}
+
+.experienceWrap .workInfo ul li{
+
+     position: relative;
+     display: flex;
+     flex-wrap:wrap;
+     padding: 20px 0px 50px;
+}
+
+.experienceWrap .workInfo ul li p{
+    font-size: 1.5em;
+}
+
+
+.experienceWrap .workInfo ul li em{
+
+    display: block;
+    background-color: #000;
+    width:100%;
+    height:2px;
+    position: absolute;
+    top:-10px;
+
+}
+
+.experienceWrap .workInfo ul li img{
+
+    height:260px;
+    margin:0px 10px;
+}
+.experienceWrap .workInfo ul li.imgBox{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.experienceWrap .workInfo ul li.gifList{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experienceWrap .workInfo ul li.gifList img{
+
+    height:300px;
+}
+
+/* project */
+
+.myProject{
+
+    margin:0 auto;
+    background-color: #fff;
+
+}
+
+.myProject.active{
+
+    background-color: #000;
+    transition: 1s;
+}
+
+.myProject .prjWrap {
+
+    margin:0 auto;
+
+}
+.myProject .prjWrap .prjBox{
+
+    padding-top:200px;
+    
+}
+
+.myProject .prjWrap .prjBox .title p{ 
+    color:#fff;
+    margin-left:-200%;
+
+}
+
+.myProject .prjWrap .prjBox .title.active p{
+
+    margin-left:0px;
+    transition: 1s;
+}
+
+.myProject .prjWrap .prjInfo{
+
+    padding: 50px 0px;
+    margin:0 auto;
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.myProject .prjWrap .prj01.active{
+
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+}
+.myProject .prjWrap .prj02.active{
+
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+}
+.myProject .prjWrap .prj03.active{
+
+    transform: translateY(0px);
+    transition: 1s;
+    opacity: 1;
+}
+
+.myProject .prjWrap .prjInfo .subTitle{
+
+  padding: 30px 0px;
+  
+}
+
+.myProject .prjWrap .prjInfo .subTitle a{
+
+    color:#084cb2;
+    font-size: 1.8em;
+    display: inline-block;
+    padding: 10px 0px;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.myProject .prjWrap .prjInfo .subTitle .prjName02{
+
+    color:#f1658a;
+}
+.myProject .prjWrap .prjInfo .subTitle .prjName03{
+
+    color:#fef600;
+}
+
+.myProject .prjWrap .prjInfo .subTitle a:hover{
+
+    color:#fff;
+    cursor: pointer;
+
+}
+
+.myProject .prjWrap .prjInfo .subTitle a strong{
+
+    color:#fff;
+    margin-right:10px;
+    text-transform: uppercase;
+    margin-right:10px;
+}
+
+
+.myProject .prjWrap .prjInfo .subTitle p{
+
+     font-size: 1.3em;
+     padding: 10px 0px;
+     color:#fff;
+}
+
+.myProject .prjWrap .prjInfo .subTitle p strong{
+
+    text-transform: uppercase;
+    margin-right:10px;
+}
+
+.myProject .prjWrap .prjInfo .imgBox{
+
+    padding: 30px 0px;
+
+}
+
+.myProject .prjWrap .prjInfo .imgBox ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.myProject .prjWrap .prjInfo .imgBox ul img{
+
+    height:400px;
+    margin:10px;
+}
+
+.websiteWrap{
+
+    margin:0 auto;
+    background-color: #fff;
+    padding: 200px 0px 100px;
+    display: none;
+
+}
+
+.websiteWrap.active{
+
+    display: block;
+}
+
+.websiteContent{
+
+    padding: 10px 100px;
+}
+
+.websiteWrap .websitetext .websiteTitle{
+
+    margin-left:-200%;
+}
+
+.websiteWrap .websitetext .websiteTitle.active{
+
+    margin-left:0px;
+    transition: 1s;
+}
+
+.websiteWrap .websitetext .websiteTitle p{
+
+     text-align: center;
+}
+
+.websiteWrap .websiteBox{
+
+    padding: 50px 0px;
+    margin:0 auto;
+    transform: translateY(200px);
+    opacity: 0;
+
+}
+
+.websiteWrap .websiteBox.active{
+
+    transform: translateY(0px);
+    opacity: 1;
+    transition: 2s;
+
+}
+.websiteWrap .websiteBox ul{
+
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.websiteWrap .websiteBox ul li{
+
+    min-width:600px;
+    background-color: #000;
+    margin:8px;
+    overflow: hidden;
+}
+
+.websiteWrap .websiteBox ul li a{
+
+    width: 100%;
+    height:300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100%;
+    opacity: 40%;
+    
+}
+
+.websiteWrap .websiteBox ul li a:hover{
+
+    opacity:80%;
+    background-size: 120%;
+    transition: background-size 1s;
+}
+
+
+.websiteWrap .websiteBox ul li:nth-child(1) a{ background-image: url(../img/rea_img1.png);}
+.websiteWrap .websiteBox ul li:nth-child(2) a{ background-image: url(../img/rea_img2.png);}
+.websiteWrap .websiteBox ul li:nth-child(3) a{ background-image: url(../img/vue_img1.png);}
+.websiteWrap .websiteBox ul li:nth-child(4) a{ background-image: url(../img/vue_img2.png);}
+
+.websiteWrap .websiteBox ul li h3{
+
+    color:#fff;
+    text-transform: uppercase;
+    font-family: "Black Han Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 5px 0px;
+}
+
+.websiteWrap .websiteBox ul li p{
+
+    color:#fff;
+    font-size: 1em;
+    font-weight: 500;
+    
+}
+
+.websiteWrap .websiteBox ul li h3 strong{ padding-left: 10px; }
+
+.websiteWrap .websiteBox ul li:nth-child(1)  h3 strong{color:#009dcd;}
+.websiteWrap .websiteBox ul li:nth-child(2)  h3 strong{color:#01014a;}
+.websiteWrap .websiteBox ul li:nth-child(3)  h3 strong{color:#fff;}
+.websiteWrap .websiteBox ul li:nth-child(4)  h3 strong{color:#aa0000;}

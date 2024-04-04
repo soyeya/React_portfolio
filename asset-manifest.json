@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/react_portfolio/static/css/main.298b9a2d.css",
+    "main.js": "/react_portfolio/static/js/main.1a8eafb4.js",
+    "static/media/animation03.gif": "/react_portfolio/static/media/animation03.ae932ccaacbadba37dc0.gif",
+    "static/media/animation02.gif": "/react_portfolio/static/media/animation02.2aa6bc56308399733504.gif",
+    "static/media/animation01.gif": "/react_portfolio/static/media/animation01.c542746dafd633cd095e.gif",
+    "static/media/vue_img2.png": "/react_portfolio/static/media/vue_img2.11d9200cfeb921769f1c.png",
+    "static/media/vue_img1.png": "/react_portfolio/static/media/vue_img1.374a9f0868825304d2c8.png",
+    "static/media/rea_img1.png": "/react_portfolio/static/media/rea_img1.fd866ff61fd7fd306da6.png",
+    "static/media/rea_img2.png": "/react_portfolio/static/media/rea_img2.db582dd5233192df4d8d.png",
+    "static/media/experience04.png": "/react_portfolio/static/media/experience04.2b9e021ce13211946a1b.png",
+    "static/media/banapresso01.png": "/react_portfolio/static/media/banapresso01.5bbcbd9deb726c9fcb0d.png",
+    "static/media/experience01.png": "/react_portfolio/static/media/experience01.6741eca31611eb021fce.png",
+    "static/media/experience03.png": "/react_portfolio/static/media/experience03.923907adee2bdfb5b0c2.png",
+    "static/media/experience02.png": "/react_portfolio/static/media/experience02.654b01b79b1e9bf6b1d3.png",
+    "static/media/banapresso02.png": "/react_portfolio/static/media/banapresso02.ed413f8a74a74348b084.png",
+    "static/media/banapresso03.png": "/react_portfolio/static/media/banapresso03.3e0d3ea8d6c00e3a2223.png",
+    "static/media/banapresso05.png": "/react_portfolio/static/media/banapresso05.b7636744f048df560ac9.png",
+    "static/media/ezpz02.png": "/react_portfolio/static/media/ezpz02.5f892d623d6d0ebdc816.png",
+    "static/media/ezpz06.png": "/react_portfolio/static/media/ezpz06.aec1c001196b9da40930.png",
+    "static/media/ezpz01.png": "/react_portfolio/static/media/ezpz01.38f34c76e9f717c2d3ec.png",
+    "static/media/youth03.png": "/react_portfolio/static/media/youth03.eee5d80f5b4ef129d34b.png",
+    "static/media/youth04.png": "/react_portfolio/static/media/youth04.3454393fc4968d16f466.png",
+    "static/media/youth05.png": "/react_portfolio/static/media/youth05.48f5811c233c218571ab.png",
+    "static/media/ezpz04.png": "/react_portfolio/static/media/ezpz04.7a6aadf0156829a0f3fb.png",
+    "static/media/ezpz03.png": "/react_portfolio/static/media/ezpz03.426d1d0486b1acdd31d3.png",
+    "static/media/portfolio.png": "/react_portfolio/static/media/portfolio.ccfe4d19f60d187af64e.png",
+    "static/media/youth02.png": "/react_portfolio/static/media/youth02.5a6d5d2775c7465ce5f9.png",
+    "static/media/youth01.png": "/react_portfolio/static/media/youth01.4203a500d969e47ee695.png",
+    "static/media/banapresso04.png": "/react_portfolio/static/media/banapresso04.08abee99fd5cd57419dc.png",
+    "static/media/ezpz05.png": "/react_portfolio/static/media/ezpz05.876a96364b01b8f0152e.png",
+    "index.html": "/react_portfolio/index.html",
+    "main.298b9a2d.css.map": "/react_portfolio/static/css/main.298b9a2d.css.map",
+    "main.1a8eafb4.js.map": "/react_portfolio/static/js/main.1a8eafb4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.298b9a2d.css",
+    "static/js/main.1a8eafb4.js"
+  ]
+}
